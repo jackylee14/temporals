@@ -7,9 +7,6 @@ Gem::Specification.new do |s|
   s.summary     = "Shared code for OrderAhead."
   s.description = "Contains active-record models. Might have more utility stuff later."
   
-  s.files             = %w( README.md Rakefile LICENSE )
+  s.files             = %w( README.md Rakefile )
   s.files            += Dir.glob("lib/**/*")
-  s.files            += Dir.glob("bin/**/*")
-  s.files            += Dir.glob("man/**/*")
-  s.files            += Dir.glob("test/**/*")
 end
